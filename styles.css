@@ -149,6 +149,8 @@ margin-top:3%;
 
 }
 .topbar a{
+  color:white;
+  text-decoration:none;
   background: rgba(0, 0, 0, 0.4);
   font-size: 60px;
   margin-top: 3%;
