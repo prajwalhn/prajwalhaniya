@@ -48,6 +48,21 @@ body{
   text-decoration: none;
 }
 
+.box2{
+  border:solid;
+  background: rgba(0, 0, 0, 0.5);
+  width: 1000px;
+  height:400px;
+  padding: 40px;
+  margin-top: 20%;
+  font-style: italic;
+
+  color: white;
+  font-size: 90px;
+  text-align:center;
+  margin-left:50%;
+}
+
 
 .topbar{
 
@@ -69,14 +84,22 @@ margin-left: 10%;
 
 
 }
-footer {
-  color: white;
+footer{
+  background: rgba(0, 0, 0, 0.5);
+  height: 40px;
+  width:100%;
+  position:bottom;
+  left:0px;
+  bottom:2px;
+}
+footer p{
 text-align: center;
-font-size: 60px;
-margin-top: 5%;
-margin-left: 150%;
+color:white;
+font-size: 40px;
+font-weight: bold;
+margin-top: 40%;
+margin-left: auto;
 margin-right: auto;
-
 }
 
 
@@ -129,18 +152,23 @@ margin-right: auto;
   color: white;
   text-decoration: none;
 }
-
-
 .box2{
-  border-radius: 50%;
-  width: 1300px;
-  background: rgba(0, 0, 0, 0.4);
-  margin-right: auto;
-  margin-left: auto;
-  padding:30px;
-  margin-top: 3%;
+  background: rgba(0, 0, 0, 0.5);
+  width: 1000px;
+  height:500px;
+  padding: 50px;
+  margin-top: 20%;
+  font-style: italic;
 
+  color: white;
+  font-size: 90px;
+  text-align:center;
+  margin-left: auto;
+  margin-right: auto;
+background-position: center;
+ border-collapse: separate;
 }
+
 .topbar{
   width: 1500px;
   height: 50px;
@@ -160,12 +188,19 @@ margin-top:3%;
 
 }
 footer{
-  color: white;
-  text-align: center;
-  font-size: 70px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 5%;
+  background: rgba(0, 0, 0, 0.5);
+  height: 40px;
+  width:100%;
+  position:bottom;
+  left:0px;
+  bottom:2px;
+}
+footer p{
+text-align: center;
+color:white;
+font-size: 40px;
+font-weight: bold;
+margin-top: 40%;
 }
 
 /*blog page*/
