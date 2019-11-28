@@ -51,7 +51,7 @@ body{
 
   background: rgba(0,0, 0, 0.5);
   border:solid;
-  width: 1020px;
+  width: 1000px;
   height:400px;
   padding: 40px;
   margin-top: 20%;
@@ -73,15 +73,17 @@ body{
   display:flex;
   text-align: center;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap:wrap;
   margin-top: 4%;
+
+
 
 }
 
 .col{
-  flex:30%;
+  flex:100%;
   padding: 10px;
-  max-width: 400px;
+  max-width: 500px;
   box-sizing: border-box;
 }
 .table{
@@ -107,7 +109,6 @@ body{
 footer{
   background: rgba(0, 0, 0, 0.5);
   height: 40px;
-  width:100%;
   position:bottom;
   left:0px;
   bottom:2px;
@@ -137,33 +138,34 @@ margin-right: auto;
 
 
 .box{
-  width:1800px;
-  height:2000px;
+  width:800px;
+  height:1400px;
   background: rgba(0, 0, 0, 0.4);
   padding: 50px;
+  margin-left: auto;
+  margin-right: auto;
 
 
   text-align:center;
-  margin-right: 30%;
   margin-top: 0%;
   color: white;
 }
 .box-img{
   margin-top: 3%;
   border-radius: 70%;
-  width:300px;
-  height:300px;
+  width:200px;
+  height:200px;
 }
 .box h1{
-  font-size: 70px;
+  font-size: 60px;
   letter-spacing: 4px;
   font-weight: 200;
-  font-style: oblique;
+  font-style:bold;
 }
 .box h3{
   font-style: italic;
   letter-spacing: 2px;
-  font-weight: 100;
+
 }
 .box h2{
   font-style: italic;
@@ -177,7 +179,7 @@ margin-right: auto;
 }
 .box2{
   background: rgba(0, 0, 0, 0.5);
-  width: 1800px;
+  width: 800px;
   height:500px;
   padding: 50px;
   margin-top: 20%;
@@ -193,7 +195,7 @@ background-position: center;
 }
 
 .profile-table{
-  max-width: 1800px;
+  max-width: 1000px;
   margin: auto;
   display:flex;
   text-align: center;
@@ -204,7 +206,7 @@ background-position: center;
 }
 
 .col{
-  flex:55%;
+  flex:50%;
   padding: 10px;
   max-width: 500px;
   box-sizing: border-box;
@@ -227,9 +229,7 @@ background-position: center;
 }
 
 footer{
-  background: rgba(0, 0, 0, 0.5);
   height: 40px;
-  width:100%;
   margin-left: 8%;
   position:bottom;
   bottom:2px;
