@@ -7,41 +7,11 @@ body{
   background-attachment: fixed;
   }
 
-  .navbar{
-    background: rgba(0, 0, 0, 0.5);
-    height:30px;
-    padding: 1px;
-    background-size: contain;
-    margin-top: 0%;
-   overflow: hidden;
-  }
-  .navbar ul{
-    list-style-type: none;
-    margin:0;
-  }
-
-
-  .navbar li a{
-
-    color:white;
-    font-size: 10px;
-    padding: 4px;
-    text-decoration: none;
-    display: inline;
-    width:30px;
-    margin-top:1%;
-    float:left;
-
-
-  }
-
-
-
 
 .box{
 
   width:1000px;
-  height:1100px;
+  height:1400px;
   background: rgba(0, 0, 0, 0.4);
   padding: 50px;
 
@@ -137,7 +107,11 @@ body{
   font-size: 38px;
 }
 
-
+.video iframe{
+  justify-content: center;
+  margin-left: 40%;
+  margin-top: 10%;
+}
 
 }
 footer{
@@ -152,10 +126,11 @@ text-align: center;
 color:white;
 font-size: 40px;
 font-weight: bold;
-margin-top: 40%;
+margin-top: 10%;
 margin-left: auto;
 margin-right: auto;
 }
+
 
 
 /*media queries*/
@@ -168,37 +143,7 @@ margin-right: auto;
   background-attachment: fixed;
   }
 
-  .navbar{
-    background: rgba(0, 0, 0, 0.5);
-    height:50px;
-    padding: 2px;
-    background-size: contain;
-    margin-top: 0%;
-   overflow: hidden;
-  }
-  .navbar ul{
-    list-style-type: none;
-    margin:0;
-  }
-
-
-  .navbar li a{
-
-    color:white;
-    font-size: 20px;
-    padding: 4px;
-    text-decoration: none;
-    display: inline;
-    width:50px;
-    margin-top:1%;
-    float:left;
-
-
-  }
-
-
-
-
+  
 .box{
   width:800px;
   height:1100px;
@@ -275,6 +220,12 @@ background-position: center;
   font-size: 28px;
 }
 
+.video iframe{
+  justify-content: center;
+  margin-left: 20%;
+  margin-top: 10%;
+}
+
 footer{
   height: 40px;
   margin-left: 5%;
@@ -287,7 +238,7 @@ color:white;
 width: 100%;
 font-size: 20px;
 font-weight: bold;
-margin-top: 40%;
+margin-top: 10%;
 }
 
 /*blog page*/
