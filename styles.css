@@ -6,6 +6,38 @@ body{
   background-position: center;
   background-attachment: fixed;
   }
+
+  .navbar{
+    background: rgba(0, 0, 0, 0.5);
+    height:30px;
+    padding: 1px;
+    background-size: contain;
+    margin-top: 0%;
+   overflow: hidden;
+  }
+  .navbar ul{
+    list-style-type: none;
+    margin:0;
+  }
+
+
+  .navbar li a{
+
+    color:white;
+    font-size: 10px;
+    padding: 4px;
+    text-decoration: none;
+    display: inline;
+    width:30px;
+    margin-top:1%;
+    float:left;
+
+
+  }
+
+
+
+
 .box{
 
   width:1000px;
@@ -15,11 +47,11 @@ body{
 
 
   text-align:center;
-  margin-top: 0%;
+  margin-top:8%;
   color: white;
 }
 .box-img{
-  margin-top: 30%;
+  margin-top: 10%;
   border-radius: 70%;
   width:200px;
   height:200px;
@@ -136,6 +168,34 @@ margin-right: auto;
   background-attachment: fixed;
   }
 
+  .navbar{
+    background: rgba(0, 0, 0, 0.5);
+    height:50px;
+    padding: 2px;
+    background-size: contain;
+    margin-top: 0%;
+   overflow: hidden;
+  }
+  .navbar ul{
+    list-style-type: none;
+    margin:0;
+  }
+
+
+  .navbar li a{
+
+    color:white;
+    font-size: 20px;
+    padding: 4px;
+    text-decoration: none;
+    display: inline;
+    width:50px;
+    margin-top:1%;
+    float:left;
+
+
+  }
+
 
 
 
@@ -148,7 +208,7 @@ margin-right: auto;
   margin-right: auto;
 
 
-  text-align:center; margin-top: 0%; color: white; } .box-img{ margin-top: 3%;
+  text-align:center; margin-top:1%; color: white; } .box-img{ margin-top: 3%;
   border-radius: 70%; width:200px; height:200px; } .box h1{ font-size: 60px;
   letter-spacing: 4px; font-weight: 200; font-style:bold; } .box h3{ font-size:
   30px; font-style: italic; letter-spacing: 2px;
@@ -217,7 +277,7 @@ background-position: center;
 
 footer{
   height: 40px;
-  margin-left: 8%;
+  margin-left: 5%;
   position:bottom;
   bottom:2px;
 }
@@ -225,35 +285,12 @@ footer p{
 text-align: center;
 color:white;
 width: 100%;
-font-size: 40px;
+font-size: 20px;
 font-weight: bold;
 margin-top: 40%;
 }
 
 /*blog page*/
 
-.blog h1{
-  text-align: center;
-  font-size: 80px;
-  color: white;
-  margin-top: 18%;
-}
-   }
 
-   /*blog page*/
-
-   .blog h1{
-     text-align: center;
-     font-size: 40px;
-     color: white;
-     margin-top: 18%;
-   }
 }/*media query ends here*/
-/*blog page*/
-
-.blog h1{
-  text-align: center;
-  font-size: 40px;
-  color: white;
-  margin-top: 18%;
-}
