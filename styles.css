@@ -6,13 +6,30 @@ body{
   background-position: center;
   background-attachment: fixed;
   }
+  .navbar{
+    background:rgba(0,0,0,0.2);
+    height: 70px;
+    line-height: 80px;
+  }
+  .navbar a{
+    float:right;
+    color: white;
+    font-size: 13px;
+    font-style:normal;
+    font-family: 'Dosis', sans-serif;
+    text-decoration:none;
+    padding: 0 10px;
+  }
+
+
+
 
 
 .box{
 
   width:1000px;
-  height:1400px;
-  background: rgba(0, 0, 0, 0.4);
+  height:700px;
+  background: rgba(0, 0, 0, 0);
   padding: 50px;
 
 
@@ -51,7 +68,7 @@ body{
 
 .box2{
 
-  background: rgba(0,0, 0, 0.5);
+  background: rgba(0,0, 0, 0.3);
   width: 1000px;
   height:400px;
   padding: 40px;
@@ -59,7 +76,7 @@ body{
   font-style: italic;
 
   color: white;
-  font-size: 40px;
+  font-size: 70px;
   text-align:center;
 }
 .box2 p{
@@ -103,8 +120,8 @@ body{
 
 .table p{
   color: white;
-  font-style: oblique;
-  font-size: 38px;
+  font-style: italic;
+  font-size: 50px;
 }
 
 .video iframe{
@@ -115,7 +132,7 @@ body{
 
 }
 footer{
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0);
   height: 40px;
   position:bottom;
   left:0px;
@@ -130,10 +147,6 @@ margin-top: 10%;
 margin-left: auto;
 margin-right: auto;
 }
-
-
-
-/*media queries*/
  @media screen and (min-width:900px){
    body{
   margin: 0;
@@ -143,17 +156,36 @@ margin-right: auto;
   background-attachment: fixed;
   }
 
-  
+.navbar{
+  background:rgba(0,0,0,0.2);
+  height: 70px;
+  line-height: 80px;
+}
+.navbar a{
+  float: right;
+  color: white;
+  font-size: 13px;
+  font-style:normal;
+  font-family: 'Dosis', sans-serif;
+  text-decoration:none;
+  padding: 0 10px;
+}
+
+
+
 .box{
   width:800px;
-  height:1100px;
-  background: rgba(0, 0, 0, 0.4);
-  padding: 50px;
+  height:600px;
+  margin:0;
+  padding: 0;
+  background: rgba(0, 0, 0, 0);
+  padding:50px;
   margin-left: auto;
   margin-right: auto;
 
 
-  text-align:center; margin-top:1%; color: white; } .box-img{ margin-top: 3%;
+
+  text-align:center; margin-top:0%; color: white; } .box-img{ margin-top: 3%;
   border-radius: 70%; width:200px; height:200px; } .box h1{ font-size: 60px;
   letter-spacing: 4px; font-weight: 200; font-style:bold; } .box h3{ font-size:
   30px; font-style: italic; letter-spacing: 2px;
@@ -228,7 +260,7 @@ background-position: center;
 
 footer{
   height: 40px;
-  margin-left: 5%;
+  margin-left:0;
   position:bottom;
   bottom:2px;
 }
@@ -236,12 +268,8 @@ footer p{
 text-align: center;
 color:white;
 width: 100%;
-font-size: 20px;
+font-size: 10px;
 font-weight: bold;
 margin-top: 10%;
 }
-
-/*blog page*/
-
-
 }/*media query ends here*/
