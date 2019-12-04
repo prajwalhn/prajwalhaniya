@@ -1,3 +1,136 @@
+@media screen and (max-width:300px) {
+
+  body{
+    margin: 0;
+    padding: 0;
+    background: url(Images/grayscale-photo-of-volcano-997443.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    }
+
+.box{
+
+    width:1000px;
+    height:700px;
+    background: rgba(0, 0, 0, 0);
+    padding: 50px;
+
+
+    text-align:center;
+    margin-top:8%;
+    margin-left: 50%;
+    color: white;
+  }
+  .box-img{
+    margin-top: 10%;
+    border-radius: 70%;
+    width:200px;
+    height:200px;
+  }
+  .box h1{
+    font-size: 60px;
+    letter-spacing: 4px;
+    font-weight: 200;
+    font-style: oblique;
+  }
+  .box h3{
+    font-size: 40px;
+    font-style: italic;
+    letter-spacing: 2px;
+    font-weight: 100;
+  }
+  .box h2{
+    font-style: italic;
+    font-size: 40px;
+    text-align: center;
+    margin-top:2%;
+  }
+  .box a{
+    color: white;
+    text-decoration: none;
+  }
+
+  .box2{
+
+    background: rgba(0,0, 0, 0.3);
+    width: 1400px;
+    height:500px;
+    padding: 40px;
+    margin-top: 30%;
+    font-style: italic;
+
+    color: white;
+    font-size: 70px;
+    text-align:center;
+  }
+  .box2 p{
+    text-align: center;
+    margin-top:10%;
+    padding: 20px;
+  }
+
+  .profile-table{
+    max-width: 1000px;
+    margin: auto;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap:wrap;
+    margin-top: 4%;
+    margin-left: 200%;
+    margin-right: auto;
+
+
+
+  }
+
+  .col{
+    flex:100%;
+    padding: 10px;
+    max-width: 500px;
+    border:solid;
+    box-sizing: border-box;
+  }
+  .table{
+    background: rgba(0,0,0,0.4);
+    padding:80px 10px;
+    position: relative;
+    overflow: hidden;
+  }
+  .table h2{
+    color: white;
+    font-size: 60px;
+  }
+
+  .table p{
+    color: white;
+    font-style: italic;
+    font-size: 50px;
+  }
+
+  .video iframe{
+    justify-content: center;
+    margin-left: 80%;
+    margin-top: 10%;
+  }
+
+  footer{
+    height: 30px;
+    position:bottom;
+    bottom:2px;
+  }
+  footer p{
+  text-align: center;
+  color:white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  }
+}
+
 @media screen and (max-width:700px) {
   body{
     margin: 0;
