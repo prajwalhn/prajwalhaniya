@@ -49,12 +49,13 @@ label {
         cursor: pointer;
     }
     .menu {
+
         text-align: left;
         width: 100%;
         display: none;
     }
     .menu a {
-      background:white;
+      background-color:white;
         color:black;
         display: block;
         margin:2%;
