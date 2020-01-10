@@ -50,6 +50,12 @@ body{
   font-size: 1.3rem;
   margin-top: 3rem;
 }
+.paperweb{
+  display: flex;
+}
+.paperweb p{
+  font-size: 3rem;
+}
 
 footer{
   height: 1.5rem;
