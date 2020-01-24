@@ -6,8 +6,45 @@
     <link rel="stylesheet" href="services.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="nav.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
   </head>
   <body>
+    <nav class="navbar">
+      <span class="navbar-toggle" id="js-navbar-toggle">
+          <i class="fa fa-bars"></i>
+        </span>
+
+      <a href="#" class="logo">pH</a>
+      <ul class="main-nav" id="js-menu">
+     <li>
+       <a href="/" class="nav-links">Home</a>
+     </li>
+
+     <li>
+       <a href="podcast.html" class="nav-links">Podcast</a>
+     </li>
+     <li>
+       <a href="contact.html" class="nav-links">Contact</a>
+     </li>
+
+     <li>
+       <a href="services.html" class="nav-links">Services</a>
+     </li>
+        </ul>
+
+        <script type="text/javascript">
+        let mainNav = document.getElementById('js-menu');
+         let navBarToggle = document.getElementById('js-navbar-toggle');
+
+        navBarToggle.addEventListener('click', function () {
+
+      mainNav.classList.toggle('active');
+  });
+        </script>
+      </nav>
+
+
   <div class="services">
     <h1>Services</h1>
     <div class="cen">
