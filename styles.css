@@ -40,8 +40,9 @@ body{
     border-bottom: 1px solid black;
     letter-spacing: 2px;
 }
-.profsn:hover h2{
+.profsn:hover{
   color:#ff793f;
+  cursor: pointer;
 }
 footer{
   height: 1.5rem;
