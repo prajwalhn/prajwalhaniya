@@ -11,25 +11,46 @@
     <title>Prajwal Haniya-Official Website</title>
     <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="media.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
 
 
   </head>
     <body>
 
 
-      <div class="nav">
-   <label for="toggle">&#9776;</label>
-      <input type="checkbox" id="toggle"/>
-      <div class="menu">
-          <a href="#">Home</a>
-          <a href="https://podcasts.google.com/?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy8xMWYzMmFlNC9wb2RjYXN0L3Jzcw%3D%3D">Podcast</a>
-          <a href="Pages\contact.html">Contact</a>
-            <a href="Pages\services.html">Services</a>
+      <nav class="navbar">
+        <span class="navbar-toggle" id="js-navbar-toggle">
+            <i class="fa fa-bars"></i>
+          </span>
 
-      </div>
-    </div>
+        <a href="#" class="logo">pH</a>
+        <ul class="main-nav" id="js-menu">
+       <li>
+         <a href="#" class="nav-links">Home</a>
+       </li>
+
+       <li>
+         <a href="Pages\podcast.html" class="nav-links">Podcast</a>
+       </li>
+       <li>
+         <a href="Pages\contact.html" class="nav-links">Contact</a>
+       </li>
+
+       <li>
+         <a href="Pages\services.html" class="nav-links">Services</a>
+       </li>
+          </ul>
+
+          <script type="text/javascript">
+          let mainNav = document.getElementById('js-menu');
+           let navBarToggle = document.getElementById('js-navbar-toggle');
+
+          navBarToggle.addEventListener('click', function () {
+
+        mainNav.classList.toggle('active');
+    });
+          </script>
+        </nav>
 
 
   <section class="container">
@@ -43,16 +64,8 @@
   </div>
 <div class="profsn">
   <h2>Software Developer, Podcaster</h2>
-
 </div>
-  <div class="biz">
-    <p>Do you want to take your Business online?I am here to help you. Contact
-    prajwalhaniya@gmail.com for business quries.</p>
-
-  </div>
-
 </div>
-  </body>
-  <footer><p>2020 &#169; Prajwal Haniya</p></footer>
+  <footer><p>2020 &#169;Developed by Prajwal Haniya</p></footer>
 
 </html>
