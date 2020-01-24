@@ -21,7 +21,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-style: italic;
+   margin-top: 2%;
+
 
   }
 
@@ -29,17 +30,23 @@ body{
 
     display: flex;
     justify-content: center;
+
   }
 .profsn h2{
+  margin-top: 2%;
  font-size: 1rem;
   color: black;
-  font-style: italic;
+      font-family: 'Neucha', cursive;
     border-bottom: 1px solid black;
+    letter-spacing: 2px;
+}
+.profsn:hover h2{
+  color:#ff793f;
 }
 footer{
   height: 1.5rem;
   background: #2c2c54;
-  margin-top:80%;;
+  margin-top:100%;;
 display: flex;
 align-items: center;
 justify-content: center;
