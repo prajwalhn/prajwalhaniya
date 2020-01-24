@@ -30,7 +30,7 @@ body{
 }
 
 .logo{
-  font-style: italic;
+ font-family: 'Lobster', cursive;
   display:inline-block;
   font-size: 2rem;
   margin-top: 10px;
