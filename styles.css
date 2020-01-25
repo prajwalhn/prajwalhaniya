@@ -44,9 +44,114 @@ body{
   color:#ff793f;
   cursor: pointer;
 }
+
+.paperweb{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20%;
+  margin-left:3%;
+  margin-right: 3%;
+}
+.paperweb h3{
+  font-size: 32px;
+  border-top: solid black;
+  border-bottom: solid black;
+}
+.pwimg{
+  display: flex;
+  justify-content: center;
+}
+.pwimg img{
+  box-sizing: border-box;
+  width:300px;
+  height:300px;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  border: solid black 1px;
+}
+.paperweb p{
+  font-style: bold;
+  font-size: 21px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  font-style:'Open-Sans', sans-serif;
+  font-weight: 520;
+}
+.aewp{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-top: solid black 4px;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.aewp h3{
+  margin-top: 8%;
+}
+
+.aewpimg{
+  display: flex;
+  justify-content: center;
+}
+
+.aewpimg img{
+  box-sizing: border-box;
+  width:300px;
+  height:300px;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  border: solid black 1px;
+}
+.podcontent{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 3%;
+  margin-right:3%;
+}
+
+.podcontent p{
+  font-size: 21px;
+  font-style: bold;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+.podavail{
+  color:white;
+  background-color: black;
+  text-align: center;
+  font-style: bold;
+  margin: 4% 3% 0 3%;
+}
+.availableon{
+  display: flex;
+  flex-direction:row;
+  margin-top: 4%;
+  margin-left: 3%;
+  margin-right: 3%;
+  justify-content: space-between;
+}
+.availableon img{
+  box-sizing: border-box;
+  width: 100px;
+  height: 50px;
+}
+
+.availableon1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 8%;
+}
+.availableon1 img{
+  box-sizing: border-box;
+  width: 50px;
+  height: 50px;
+}
+
 footer{
   height: 1.5rem;
-  background: #2c2c54;
+  background: black;
   margin-top:100%;;
 display: flex;
 align-items: center;
@@ -76,5 +181,31 @@ footer p{
   width:200px;
   height:200px;
 }
+.availableon{
+  display: flex;
+  flex-direction:row;
+  margin-top: 4%;
+  margin-left: 3%;
+  margin-right: 3%;
+  justify-content: space-between;
+}
+.availableon img{
+  box-sizing: border-box;
+  width: 300px;
+  height: 100px;
+}
+
+.availableon1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 4%;
+}
+.availableon1 img{
+  box-sizing: border-box;
+  width: 200px;
+  height: 200px;
+}
+
 
 }/*media query ends here*/
