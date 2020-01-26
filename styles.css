@@ -5,7 +5,7 @@ body{
   .container{
     display: flex;
     justify-content: center;
-    margin-top: 2.5rem;
+    margin-top: 5rem;
   }
 
   .item{
@@ -53,9 +53,11 @@ body{
   margin-right: 3%;
 }
 .paperweb h3{
-  font-size: 32px;
-  border-top: solid black;
-  border-bottom: solid black;
+  background-color: black;
+  padding:4px;
+  color:white;
+  font-family: 'Muli', sans-serif;
+  font-size: 28px;
 }
 .pwimg{
   display: flex;
@@ -63,30 +65,31 @@ body{
 }
 .pwimg img{
   box-sizing: border-box;
-  width:300px;
+  width:100%;
   height:300px;
   margin-top: 4%;
   margin-bottom: 4%;
-  border: solid black 1px;
 }
 .paperweb p{
-  font-style: bold;
   font-size: 21px;
   letter-spacing: 2px;
   word-spacing: 2px;
-  font-style:'Open-Sans', sans-serif;
-  font-weight: 520;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 300;
 }
 .aewp{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border-top: solid black 4px;
   margin-left: 3%;
   margin-right: 3%;
 }
 .aewp h3{
+  color:#e67e22;
   margin-top: 8%;
+}
+.aewp h1{
+  color:white;
 }
 
 .aewpimg{
@@ -100,7 +103,6 @@ body{
   height:300px;
   margin-top: 4%;
   margin-bottom: 4%;
-  border: solid black 1px;
 }
 .podcontent{
   display: flex;
@@ -110,7 +112,13 @@ body{
   margin-right:3%;
 }
 
+.podwhole{
+  margin-top: 4%;
+  background-color:#1e272e;
+}
+
 .podcontent p{
+  color: white;
   font-size: 21px;
   font-style: bold;
   letter-spacing: 2px;
@@ -118,9 +126,7 @@ body{
 }
 .podavail{
   color:white;
-  background-color: black;
   text-align: center;
-  font-style: bold;
   margin: 4% 3% 0 3%;
 }
 .availableon{
@@ -147,18 +153,22 @@ body{
   box-sizing: border-box;
   width: 50px;
   height: 50px;
+ margin-bottom: 8%;
 }
 
 footer{
-  height: 1.5rem;
   background: black;
-  margin-top:100%;;
+  margin-top:100%;
+  margin-bottom: -100%;
+  clear:both;
+  height:100px;
 display: flex;
+flex-direction: column;
 align-items: center;
 justify-content: center;
 }
 footer p{
-  color: white;
+  color:#7f8c8d;
 }
 
 @media screen and (min-width:900px){
@@ -180,6 +190,13 @@ footer p{
   border-radius: 50%;
   width:200px;
   height:200px;
+}
+.pwimg img{
+  box-sizing: border-box;
+  width:400px;
+  height:300px;
+  margin-top: 4%;
+  margin-bottom: 4%;
 }
 .availableon{
   display: flex;
