@@ -1,3 +1,83 @@
+.podwhole{
+  margin-top: 2%;
+  background-color:#1e272e;
+}
+
+.aewp{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.aewp h3{
+  color:#e67e22;
+  margin-top: 4%;
+}
+.aewp h1{
+  color:white;
+}
+
+.aewpimg{
+  display: flex;
+  justify-content: center;
+}
+
+.aewpimg img{
+  box-sizing: border-box;
+  width:300px;
+  height:300px;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+.podcontent{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 3%;
+  margin-right:3%;
+}
+
+
+.podcontent p{
+  color: white;
+  font-size: 26px;
+  font-style: bold;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+.podavail{
+  color:white;
+  text-align: center;
+  margin: 4% 3% 0 3%;
+}
+.availableon{
+  display: flex;
+  flex-direction:row;
+  margin-top: 4%;
+  margin-left: 3%;
+  margin-right: 3%;
+  justify-content: space-between;
+}
+.availableon img{
+  box-sizing: border-box;
+  width: 100px;
+  height: 40px;
+}
+
+.availableon1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 8%;
+}
+.availableon1 img{
+  box-sizing: border-box;
+  width: 50px;
+  height: 50px;
+ margin-bottom: 8%;
+}
+
 footer{
   height: 1.5rem;
   background: black;
