@@ -17,8 +17,6 @@ body{
   .item img{
     box-sizing: border-box;
     border-radius: 50%;
-    width:200px;
-    height:200px;
   }
   .info{
     display: flex;
