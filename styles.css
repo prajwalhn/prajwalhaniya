@@ -170,7 +170,25 @@ body{
   margin-left: 3%;
   margin-right: 3%;
 }
-
+#back2Top {
+    width: 50px;
+    line-height: 40px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    position: fixed;
+    bottom:7rem;
+    right: 20px;
+    color:black;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: none;
+}
+#back2Top:hover {
+    background-color:white;
+    color: #000;
+}
 footer{
   background: black;
   margin-top: 100%;
