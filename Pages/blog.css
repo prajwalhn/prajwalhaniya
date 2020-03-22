@@ -7,7 +7,7 @@ body{
   margin-top: 0px;
 background-color:#B71C1C;
 color:white;
-height:35rem;
+height:40rem;
 }
 
 .nameTop{
@@ -20,7 +20,7 @@ height:35rem;
 
 footer{
   background: black;
-  margin-top: 12rem;
+  margin-top: 20rem;
   margin-bottom: -100%;
   clear:both;
   height:100px;
