@@ -1,7 +1,7 @@
 /*Scroll to top when arrow up clicked BEGIN*/
 $(window).scroll(function() {
     var height = $(window).scrollTop();
-    if (height > 3000) {
+    if (height > 2000) {
         $('#back2Top').fadeIn();
     } else {
         $('#back2Top').fadeOut();
