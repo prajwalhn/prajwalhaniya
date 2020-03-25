@@ -42,7 +42,7 @@ body{
 
 footer{
   background: black;
-  margin-top:3rem;
+  margin-top:8rem;
   margin-bottom: -100%;
   clear:both;
   height:100px;
@@ -59,7 +59,7 @@ footer p{
 
   .articleHeadings{
   display:flex;
-  flex-flow:row;
+  flex-direction:column;
 
   }
 
