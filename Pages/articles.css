@@ -1,0 +1,21 @@
+.body{
+  margin:0;
+  padding:0;
+}
+
+.CompleteArticle{
+  margin: 1rem 1rem 1rem 1rem;
+
+}
+
+.ArticleHeading{
+  font-family: 'Permanent Marker', cursive;
+border-bottom: solid black 1px;
+  letter-spacing: 3px;
+}
+
+.ArticleBody{
+  margin-top: 1rem;
+  font-size: 26px;
+  font-family: 'Crimson Text', serif;
+}
