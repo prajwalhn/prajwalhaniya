@@ -1,26 +1,48 @@
 body{
   margin: 0;
   padding: 0;
+  background-color:#dfe6e9;
 }
 
-.HeadingTop{
-  margin-top: 0px;
-background-color:#B71C1C;
-color:white;
-height:40rem;
+.articleHeadings{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.Art{
+  background-color:#d35400;
+  color:white;
+
 }
 
-.nameTop{
-  text-align: center;
+.by{
+  margin-left: 1rem;
 }
 
-.CMNG{
-  margin: 10rem auto auto auto;
+.Date{
+  box-sizing: border-box;
+  color:Black;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin:2rem 1rem auto 1rem;
+ font-family: 'Patua One', cursive;
+  font-size: 20px;
+}
+.articleNames{
+  margin-left: 1rem;
+  margin-top: .1rem;
+  margin-right: 1rem;
+  border-top: solid black 1px;
+  border-bottom: solid black 1px;
+}
+.articleNames a{
+  color:red;
+  text-decoration: none;
 }
 
 footer{
   background: black;
-  margin-top:2rem;
+  margin-top:1rem;
   margin-bottom: -100%;
   clear:both;
   height:100px;
@@ -31,4 +53,14 @@ justify-content: center;
 }
 footer p{
   color:#7f8c8d;
+}
+
+@media screen and (min-width:900px) {
+
+  .articleHeadings{
+  display:flex;
+  flex-flow:row;
+
+  }
+
 }
