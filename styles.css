@@ -224,6 +224,7 @@ font-size: 2.5rem;
 .SocialMedia{
   display: flex;
   flex-direction:row;
+  flex-wrap: wrap;
 
 }
 .SocialMedia img{
@@ -305,6 +306,12 @@ footer p{
   background: black;
   height:40rem;
   margin-bottom: 0;
+}
+.SocialMedia img{
+  margin-top:1rem;
+  margin-left: 2rem;
+  height:5rem;
+  width:5rem;
 }
 
 
