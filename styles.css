@@ -45,11 +45,61 @@ body{
   color:#ff793f;
   cursor: pointer;
 }
-.podwhole{
-  margin-top: 18rem;
+.vford{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 15rem;
   background-color:#1e272e;
 }
+.NameHundredv{
+  margin-top: 1rem;
+  margin-left: 1rem;
+  color: white;
+}
+.NameHundredv h3{
+  color:#fbc531;
+}
+.vidimage{
+  display: flex;
+  margin-top:2rem;
+  justify-content: center;
+}
+.vidimage img{
+  box-sizing: border-box;
+  width:310px;
+  height:190px;
+  margin-bottom: 4%;
+}
+.ContentDetails{
+  color: white;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  font-size: 26px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+.ContentDetails a{
+  text-decoration: none;
+  color:#eb2f06;
+  font-style:bold;
+  font-weight: bold;
+}
+.NewEpInfo h3{
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 2px;
+  word-spacing: 1px;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  color: white;
+}
 
+
+.podwhole{
+  margin-top:0;
+  background-color:#1e272e;
+}
 .aewp{
   display: flex;
   flex-direction: column;
@@ -59,7 +109,7 @@ body{
 }
 .aewp h3{
   color:#e67e22;
-  margin-top: 4%;
+  margin-top:2rem;
 }
 .aewp h1{
   color:white;
